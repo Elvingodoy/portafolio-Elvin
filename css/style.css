@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+:root{
+	--color-negro:#fff;
+	--color-texto:#000;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #F4F4F4;
+	background-color: #000000;
+	text-align: center;
+}
+header{
+    background-color: #737373;
+	color: #000000;
+}
+#navbar{
+color:#FFF503;
+text-align: center;
+background-color: #737373;  
+}
+
+#Intro {
+background-image: url("../img/raul b&W.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #000000;
+	padding: 10% 0;
+	border-image-slice: 10%;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+#about{
+	background-color: #000000;	
+	color: #FFF6F6;
+	text-align: center; 
+	margin-bottom: 45px;
+	padding: 30px; 
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";	
+}
+h2{
+font-size: 40px;
+padding: 20px; 
+}
+i{
+padding: 20px;	
+	
+}
+h3{
+padding: 10px; 	
+	
+}
+#services{
+text-align: center;	
+padding:20px;
+padding-top: 15px; 
+font-size: 20px;
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"	
+}
+h4{
+font-size: 40px;	
+	
+}
+p{
+padding: 10px;	
+font-size: 30px;	
+}
+
+.fancybox-active{
+position: relative;
+padding: 25px 0px;
+}
+.capa-contenido{
+position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	color: #FCFCFC;
+	font-size: 5px;
+	opacity: 0;
+	padding: 40px 0;
+}
+.capa-contenido:hover{
+	opacity: 1;
+}
+#contact{
+text-align: center;
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"	
+}
+#animacion {
+text-align: center;	
+	
+	
+}
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+footer {
+	background-color: #FDFDFD;
+	color:#000000;
+	text-align: center;
+	padding-top: 15px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+
